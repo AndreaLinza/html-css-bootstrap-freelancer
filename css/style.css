@@ -82,6 +82,13 @@ main section:first-child i, main section:nth-child(3) i{
     color: var(--bs-secondary);  /*Non entra l'hover*/
 }
 
+ul{
+    list-style: none;
+}
+.link-light{
+    text-decoration: none;
+}
+
 
 
 
