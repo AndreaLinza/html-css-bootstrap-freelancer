@@ -5,21 +5,21 @@
     --bs-secondary-rgb: 44, 62, 80;
     --bs-info: #3A546D;
     --bs-info-rgb: 58, 84, 109;
+
 }
 
-body {
-    color: white;
+.text-secondary{
+    color: var(--bs-secondary);
 }
+
 
 /* Navbar */
 nav {
-    width: 100%;
     background-color: var(--bs-secondary);
 }
 
 
 .line {
-    border-color: white;
     margin: .4rem;
     opacity: 1;
 }
@@ -30,19 +30,19 @@ header{
     background-color: var(--bs-primary);
 }
 
-.bg-card img {
-    max-width: 250px;
-}
 
 .divider {
-    width: 100%;
-    opacity: 1;
     border-top: 3px solid;
 }
 
-i {
+.star i {
     font-size: 1.5rem;
     padding: 0 .5rem;
+}
+
+
+button>i{
+    font-size: 1rem;
 }
 
 main{
@@ -53,10 +53,34 @@ main{
     border-color: var(--bs-secondary);
 }
 
-main i{
+main section:first-child i, main section:nth-child(3) i{
     color: var(--bs-secondary);
 }
+.btn-primary{
+    background-color: var(--bs-primary);
+}
+.btn-primary:hover{
+    background-color: var(--bs-info);
+}
+.btn-outline-secondary{
+    color:white ;
+}
+.btn-outline-secondary:hover{
+    background-color: var(--bs-info);
+}
 
+.circle{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.link-primary{
+    color: var(--bs-primary);
+    text-decoration: none;
+}
+.link-primary:focus, .link-primary:hover{
+    color: var(--bs-secondary);  /*Non entra l'hover*/
+}
 
 
 
