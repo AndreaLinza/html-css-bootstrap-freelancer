@@ -16,239 +16,251 @@
 
 <body class="text-light">
 
-    <nav class="fixed-top py-4">
-        <div class="container">
-            <div class="row align-items-center justify-content-between gy-4">
-                <div class="col-sm-5 px-0">
-                    <h5 class="fw-bold m-0 text-uppercase">Start Bootstrap</h5>
-                </div>
-                <div class="col-sm-1 col-md-5 px-0">
-                    <ul class="m-0 d-none d-md-flex justify-content-end list-unstyled">
-                        <li><a class="link-light text-decoration-none text-uppercase px-2" href="#">Portfolio</a></li>
-                        <li><a class="link-light text-decoration-none text-uppercase px-2" href="#">About</a></li>
-                        <li><a class="link-light text-decoration-none text-uppercase px-2" href="#">Contact</a></li>
+    <header>
+
+    <!---------------- NAV SECTION -------------------->
+        <nav class="navbar navbar-expand-md bg-secondary fixed-top"  data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link my-nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item text-uppercase">
+                            <a class="nav-link my-nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item text-uppercase">
+                            <a class="nav-link my-nav-link" href="#">Contact</a>
+                        </li>
                     </ul>
-                    <button type="button" class="btn btn-outline-secondary w-100 px-1 d-md-none">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!----------------- START BOOTSTRAP ------------------>
-    <section class="bg-primary pt-5">
-        <header class="py-5">
+        </nav>
+
+
+        <!----------------- HERO SECTION ------------------>
+        <section class="bg-primary py-4">
+
             <div class="container">
                 <div class="row justify-content-center gy-2">
                     <div class="col-sm col-md-5">
                         <div class="bg-card text-center">
-                            <img class="w-50" src="./img/avatar.svg" alt="avatar">
+                            <img class="w-50 mt-5" src="./img/avatar.svg" alt="avatar">
                         </div>
                     </div>
                     <h1 class="main-text">Start bootstrap</h1>
                 </div>
                 <div class="row justify-content-center mb-2">
                     <div class="col-sm-4 d-flex align-items-center">
-                        <hr class="divider opacity-100 w-100">
+                        <hr class="divider">
                         <span class="star"><i class="fa-solid fa-star"></i></span>
-                        <hr class="divider opacity-100 w-100">
+                        <hr class="divider">
                     </div>
                 </div>
 
                 <h6 class="main-text">Grafic Artist - Web Designer - Illustrator</h6>
 
             </div>
-        </header>
-    </section>
-
-    <main class="mt-5">
-        <!---------------- PORTFOLIO ------------------>
-        <section>
-            <div class="container">
-                <h3 class="text-secondary main-text">Portfolio</h3>
-                <div class="row justify-content-center mb-3">
-                    <div class="col-sm-4 d-flex align-items-center">
-                        <hr class="divider opacity-100 w-100 second-divider">
-                        <span class="star"><i class="fa-solid fa-star"></i></span>
-                        <hr class="divider opacity-100 w-100 second-divider">
-                    </div>
-                </div>
-                <div class="row justify-content-center gy-4">
-                    <div class="col-sm-11 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img" src="./img/cabin.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-11 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img" src="./img/cake.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-11 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img" src="./img/circus.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-11 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img" src="./img/game.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-11 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img" src="./img/safe.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-11 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img class="card-img" src="./img/submarine.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </header>
         </section>
 
-        <!---------- ABOUT ------------->
-        <section class="bg-primary mt-5 py-4">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h3 class="main-text">About</h3>
-                    <div class="col-sm-4 d-flex align-items-center">
-                        <hr class="divider opacity-100 w-100">
-                        <span class="star"><i class="fa-solid fa-star"></i></span>
-                        <hr class="divider opacity-100 w-100">
+        <main class="mt-5">
+            <!---------------- PORTFOLIO ------------------>
+            <section>
+                <div class="container">
+                    <h1 class="text-secondary main-text">Portfolio</h1>
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-sm-4 d-flex align-items-center">
+                            <hr class="divider second-divider">
+                            <span class="star"><i class="fa-solid fa-star"></i></span>
+                            <hr class="divider second-divider">
+                        </div>
                     </div>
-                </div>
-                <div class="row justify-content-center mb-2">
-                    <div class="col-10">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>
-                                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download
-                                    includes
-                                    the
-                                    complete source files including HTML, CSS and JavaScript as well as optional LESS
-                                    stylesheets for easy customization.
-                                </p>
+                    <div class="row justify-content-center gy-4">
+                        <div class="col-sm-11 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/cabin.png" alt="">
                             </div>
+                        </div>
 
+                        <div class="col-sm-11 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/cake.png" alt="">
+                            </div>
+                        </div>
 
-                            <div class="col-md-6">
-                                <p>
-                                    Whether you're a student looking to showcase your work, a professional looking to
-                                    attract
-                                    clients, or a graphic artist looking to share your projects, this template is the
-                                    perfect
-                                    starting point!
-                                </p>
+                        <div class="col-sm-11 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/circus.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-11 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/game.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-11 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/safe.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-11 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img class="card-img" src="./img/submarine.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 text-center">
-                        <button type="button" class="btn my-btn-download"><i class="fa-solid fa-download"></i>
-                            Download</button>
+            </section>
+
+            <!---------- ABOUT ------------->
+            <section class="bg-primary mt-5 py-4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h1 class="main-text">About</h1>
+                        <div class="col-sm-4 d-flex align-items-center">
+                            <hr class="divider">
+                            <span class="star"><i class="fa-solid fa-star"></i></span>
+                            <hr class="divider">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mb-2">
+                        <div class="col-10">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download
+                                        includes
+                                        the
+                                        complete source files including HTML, CSS and JavaScript as well as optional
+                                        LESS
+                                        stylesheets for easy customization.
+                                    </p>
+                                </div>
+
+
+                                <div class="col-md-6">
+                                    <p>
+                                        Whether you're a student looking to showcase your work, a professional looking
+                                        to
+                                        attract
+                                        clients, or a graphic artist looking to share your projects, this template is
+                                        the
+                                        perfect
+                                        starting point!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 text-center">
+                            <button type="button" class="btn my-btn-download"><i class="fa-solid fa-download"></i>
+                                Download</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!----------------- CONTACT-ME -------------->
-        <section class="pt-5">
-            <div class="container">
-                <h3 class="text-secondary main-text">Contact-me</h3>
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 d-flex align-items-center">
-                        <hr class="divider second-divider opacity-100 w-100">
-                        <span class="star"><i class="fa-solid fa-star"></i></span>
-                        <hr class="divider second-divider opacity-100 w-100">
+            </section>
+            <!----------------- CONTACT-ME -------------->
+            <section class="pt-5">
+                <div class="container">
+                    <h1 class="text-secondary main-text">Contact-me</h1>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 d-flex align-items-center">
+                            <hr class="divider second-divider">
+                            <span class="star"><i class="fa-solid fa-star"></i></span>
+                            <hr class="divider second-divider">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center text-secondary">
+                        <div class="col-10">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputName1" class="my-form-label">Name</label>
+                                    <input type="text" class="form-control my-border" id="exampleInputName1"
+                                        aria-describedby="nameHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="my-form-label">Email address</label>
+                                    <input type="email" class="form-control my-border" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPhoneNumber1" class="my-form-label">Phone Number</label>
+                                    <input type="text" class="form-control my-border" id="exampleInputPhoneNumber1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="my-form-label">Message</label>
+                                    <textarea class="form-control my-border" id="exampleFormControlTextarea1"
+                                        rows="5"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn my-btn-send">Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="row justify-content-center text-secondary">
-                    <div class="col-10">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputName1" class="form-label">Name</label>
-                                <input type="text" class="form-control my-border" id="exampleInputName1"
-                                    aria-describedby="nameHelp">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control my-border" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPhoneNumber1" class="form-label">Phone Number</label>
-                                <input type="text" class="form-control my-border" id="exampleInputPhoneNumber1">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control my-border" id="exampleFormControlTextarea1" rows="5"></textarea>
-                            </div>
+            </section>
+        </main>
 
-                            <button type="submit" class="btn my-btn-send">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+        <!---------------------- Footer section ------------------>
 
-    <!---------------------- Footer section ------------------>
+        <footer>
+            <section class="bg-info mt-5 py-5 text-center ">
+                <div class="container d-md-flex">
 
-    <footer>
-        <section class="bg-info mt-5 py-5 text-center ">
-            <div class="container d-md-flex">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row justify-content-sm-center gy-5">
+                                <!-- LOCATION -->
+                                <div class="col-sm-9 col-md-4 col-lg-4">
+                                    <h5 class="text-uppercase">Location</h5>
+                                    <p class="m-0">2215 John Daniel Drive Clark, MO 54243</p>
+                                </div>
 
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row justify-content-sm-center gy-5">
-                            <!-- LOCATION -->
-                            <div class="col-sm-9 col-md-4 col-lg-4">
-                                <h5 class="text-uppercase">Location</h5>
-                                <p class="m-0">2215 John Daniel Drive Clark, MO 54243</p>
-                            </div>
+                                <!-- AROUND THE WEB -->
+                                <div class="col-sm-9 col-md-4 col-lg-4">
+                                    <h5 class="text-uppercase">Around the web</h5>
+                                    <button type="button" class="btn my-btn-icon border rounded-circle"><i
+                                            class="fa-brands fa-facebook-f"></i></button>
+                                    <button type="button" class="btn my-btn-icon border rounded-circle col-sm-1"><i
+                                            class="fa-brands fa-google-plus-g"></i></button>
+                                    <button type="button" class="btn my-btn-icon border rounded-circle col-sm-1"><i
+                                            class="fa-brands fa-twitter"></i></button>
+                                    <button type="button" class="btn my-btn-icon border rounded-circle col-sm-1"><i
+                                            class="fa-brands fa-linkedin-in"></i></button>
+                                </div>
 
-                            <!-- AROUND THE WEB -->
-                            <div class="col-sm-9 col-md-4 col-lg-3">
-                                <h5 class="text-uppercase">Around the web</h5>
-                                <button type="button" class="btn my-btn-icon border rounded-circle"><i
-                                        class="fa-brands fa-facebook-f"></i></button>
-                                <button type="button" class="btn my-btn-icon border rounded-circle col-sm-1"><i
-                                        class="fa-brands fa-google-plus-g"></i></button>
-                                <button type="button" class="btn my-btn-icon border rounded-circle col-sm-1"><i
-                                        class="fa-brands fa-twitter"></i></button>
-                                <button type="button" class="btn my-btn-icon border rounded-circle col-sm-1"><i
-                                        class="fa-brands fa-linkedin-in"></i></button>
-                            </div>
-
-                            <!-- ABOUT FREELANCER -->
-                            <div class="col-sm-9 col-md-4 col-lg-4">
-                                <h5 class="text-uppercase">About Freelancer</h5>
-                                <p>Freelance is a free to use, open source Bootstrap theme created by <a
-                                        class="text-decoration-none" href="#">Start Bootstrap</a></p>
+                                <!-- ABOUT FREELANCER -->
+                                <div class="col-sm-9 col-md-4 col-lg-4">
+                                    <h5 class="text-uppercase">About Freelancer</h5>
+                                    <p>Freelance is a free to use, open source Bootstrap theme created by <a
+                                            class="text-decoration-none" href="#">Start Bootstrap</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Copiright -->
-        <section class="bg-secondary">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col text-center">
-                        <p class="py-5">Copyright <i class="fa-regular fa-copyright"></i> Your Wbsite 2019</p>
+            </section>
+            <!-- Copiright -->
+            <section class="bg-secondary">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col text-center">
+                            <p class="py-5">Copyright <i class="fa-regular fa-copyright"></i> Your Wbsite 2019</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </footer>
+            </section>
+        </footer>
 
 </body>
 
